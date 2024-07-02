@@ -1,0 +1,47 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+      background-color: #f4f4f4;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding: 20px;
+    width: 350px;
+    height: 480px;
+    background-color: white;
+  }
+  
+  h1 {
+    color: #5529af;
+    letter-spacing: 1.5px;
+    font-size: 45px;
+    text-align: center;
+  }
+  
+  #result-area,
+  #chance-area,
+  #user-input,
+  #answer-area,
+  .buttons {
+    margin-bottom: 20px;
+  }
+
+  .input-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
